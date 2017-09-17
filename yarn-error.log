@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add es2015
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "week3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo hello"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.0",
+      "babel-preset-es2015": "^6.24.1",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^7.0.0",
+      "karma-phantomjs-launcher": "^1.0.4",
+      "koa": "^2.3.0",
+      "koa-simple-router": "^0.2.0"
+    },
+    "dependencies": {
+      "karma-babel-preprocessor": "^7.0.0",
+      "karma-webpack": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/liuguowei/Desktop/yd/week3/node_modules/duplexer2'

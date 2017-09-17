@@ -1,0 +1,37 @@
+13:01:07.561 INFO - Selenium build info: version: '3.5.3', revision: 'a88d25fe6b'
+13:01:07.562 INFO - Launching a standalone Selenium Server
+2017-09-17 13:01:07.585:INFO::main: Logging initialized @276ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:01:07.637 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:01:07.674 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:01:07.674 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:01:07.713 INFO - Using the passthrough mode handler
+2017-09-17 13:01:07.743:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-09-17 13:01:07.774:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@3701eaf6{/,null,STARTING} has uncovered http methods for path: /
+2017-09-17 13:01:07.779:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3701eaf6{/,null,AVAILABLE}
+2017-09-17 13:01:07.811:INFO:osjs.AbstractConnector:main: Started ServerConnector@5a1c0542{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-17 13:01:07.812:INFO:osjs.Server:main: Started @503ms
+13:01:07.812 INFO - Selenium Server is up and running
+2017-09-17 13:01:07.986:INFO:osjshC.ROOT:qtp166239592-10: org.openqa.selenium.remote.server.WebDriverServlet-5622fdf: Initialising WebDriverServlet
+13:01:08.024 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+13:01:08.025 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@6382751
+13:01:08.029 INFO - /session: Executing POST on /session (handler: BeginSession)
+13:01:08.081 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=Index Spec, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+13:01:08.082 INFO - Capabilities {acceptSslCerts=true, name=Index Spec, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+13:01:08.083 INFO - Capabilities {acceptSslCerts=true, name=Index Spec, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 23334
+Only local connections are allowed.
+13:01:09.585 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@1f458bca
+13:01:09.586 INFO - Handler thread for session cd74c530155e82c368010c841ceac33c (chrome): Executing POST on /session/cd74c530155e82c368010c841ceac33c/url (handler: ServicedSession)
+13:01:09.588 INFO - To upstream: {"url":"https://www.baidu.com"}
+13:01:10.109 INFO - To downstream: {"sessionId":"cd74c530155e82c368010c841ceac33c","status":0,"value":null}
+13:01:10.114 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@1f458bca
+13:01:10.114 INFO - Handler thread for session cd74c530155e82c368010c841ceac33c (chrome): Executing POST on /session/cd74c530155e82c368010c841ceac33c/elements (handler: ServicedSession)
+13:01:10.116 INFO - To upstream: {"using":"css selector","value":"#lg"}
+13:01:10.162 INFO - To downstream: {"sessionId":"cd74c530155e82c368010c841ceac33c","status":0,"value":[{"ELEMENT":"0.7753430252197955-1"}]}
+13:01:10.168 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@1f458bca
+13:01:10.168 INFO - Handler thread for session cd74c530155e82c368010c841ceac33c (chrome): Executing DELETE on /session/cd74c530155e82c368010c841ceac33c (handler: ServicedSession)
+13:01:10.221 INFO - To downstream: {"sessionId":"cd74c530155e82c368010c841ceac33c","status":0,"value":null}
+13:01:10.225 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@1f458bca
+13:01:10.231 INFO - To downstream: {"sessionId":"","status":0,"value":null}
